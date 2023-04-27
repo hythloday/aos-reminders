@@ -29,6 +29,7 @@ import { SlaaneshFaction } from 'factions/slaanesh'
 import { SlavesToDarknessFaction } from 'factions/slaves_to_darkness'
 import { SonsOfBehematFaction } from 'factions/sons_of_behemat'
 import { SoulblightGravelordsFaction } from 'factions/soulblight_gravelords'
+import { SpookybatGroanladsFaction } from 'factions/spookybat_groanlads'
 import { StormcastFaction } from 'factions/stormcast_eternals'
 import { SylvanethFaction } from 'factions/sylvaneth'
 import { TombKingsFaction } from 'factions/tomb_kings'
@@ -68,6 +69,7 @@ import {
   SLAANESH,
   SLAVES_TO_DARKNESS,
   SONS_OF_BEHEMAT,
+  SPOOKYBAT_GROANLADS,
   SOULBLIGHT_GRAVELORDS,
   STORMCAST_ETERNALS,
   SYLVANETH,
@@ -113,6 +115,7 @@ const FactionList = {
   [SLAANESH]: { ...SlaaneshFaction },
   [SLAVES_TO_DARKNESS]: { ...SlavesToDarknessFaction },
   [SONS_OF_BEHEMAT]: { ...SonsOfBehematFaction },
+  [SPOOKYBAT_GROANLADS]: { ...SpookybatGroanladsFaction },
   [SOULBLIGHT_GRAVELORDS]: { ...SoulblightGravelordsFaction },
   [STORMCAST_ETERNALS]: { ...StormcastFaction },
   [SYLVANETH]: { ...SylvanethFaction },
